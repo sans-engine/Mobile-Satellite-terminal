@@ -1,0 +1,4 @@
+test_id;reference_deg;ax_raw;ay_raw;az_raw;tilt_signed_deg
+A1;0;0;12;16384;0,0
+A2;15;4240;12;15826;15,0
+A3;30;8192;12;14189;30,0

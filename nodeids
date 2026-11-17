@@ -1,0 +1,16 @@
+[
+  "test_measurement.py::test_bad_rows_are_skipped",
+  "test_measurement.py::test_binary_garbage",
+  "test_measurement.py::test_empty_file",
+  "test_measurement.py::test_good_file",
+  "test_measurement.py::test_header_spaces_and_bom",
+  "test_measurement.py::test_missing_columns",
+  "test_measurement.py::test_missing_file",
+  "test_measurement.py::test_missing_optional_columns",
+  "test_measurement.py::test_only_header",
+  "test_measurement.py::test_semicolon_and_decimal_comma",
+  "test_measurement.py::test_series_bad_rows",
+  "test_measurement.py::test_series_errors",
+  "test_measurement.py::test_turkish_encoding",
+  "test_measurement.py::test_views_never_crash"
+]

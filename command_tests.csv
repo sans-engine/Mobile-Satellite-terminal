@@ -1,0 +1,5 @@
+case,command,expected,expected_target
+valid_target,"{\"v\":1,\"type\":\"cmd\",\"id\":1,\"op\":\"set_target\",\"az_deg\":45,\"el_deg\":30}",OK,"45,30"
+invalid_elevation,"{\"v\":1,\"type\":\"cmd\",\"id\":2,\"op\":\"set_target\",\"az_deg\":45,\"el_deg\":120}",E_RANGE,"previous target unchanged"
+auto_not_ready,"{\"v\":1,\"type\":\"cmd\",\"id\":3,\"op\":\"set_mode\",\"mode\":\"AUTO\"}",E_NOT_READY,"mode remains STOP"
+stop,"{\"v\":1,\"type\":\"cmd\",\"id\":4,\"op\":\"stop\"}",OK,"mode STOP, speed zero"
